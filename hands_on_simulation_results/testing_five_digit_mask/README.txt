@@ -1,0 +1,1 @@
+This is a hands-on simulation with real 532nn laser testing compressed sensing with digital micrometer device control. The additional folder includes pre-computed Dragon wavelet matrices with different resolutions, set into the DMD.
