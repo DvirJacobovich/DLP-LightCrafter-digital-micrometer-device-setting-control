@@ -42,7 +42,7 @@ addpath 'C:\Users\Dvir\Desktop\DMD Settings and Control\DMD Full Control\Usfull 
     end
     
     Movie_mat = Movie_mat';
-    inverse_cells = singel_LL_inverse(imageSize); 
+    inverse_cells = signal_LL_inverse(imageSize); 
     rand_ref = randperm(full_size, imageSize)';
     rand_seperator = zeros(full_size, 1);
     rand_seperator(rand_ref) = 1;
