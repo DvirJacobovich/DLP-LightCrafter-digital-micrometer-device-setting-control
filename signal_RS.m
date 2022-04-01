@@ -43,7 +43,7 @@ addpath 'C:\Users\Dvir\Desktop\DMD Settings and Control\DMD Full Control\Usfull 
         Movie_mat(i, :) = vec;
     end
     Movie_mat = Movie_mat';
-    inverse_cells = singel_LL_inverse(imageSize); 
+    inverse_cells = signal_LL_inverse(imageSize); 
 
 % Open an on screen window if not open
 if isempty(window)
