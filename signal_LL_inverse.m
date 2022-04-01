@@ -1,4 +1,4 @@
-function [ inverse_cells ] = singel_LL_inverse( input_size )
+function [ inverse_cells ] = signal_LL_inverse( input_size )
 %LL_inverse Computes the inverse low-level DMD formatting matrix. 
 %   This is Dvir Jacobovich version.
 %   The output is such that:
