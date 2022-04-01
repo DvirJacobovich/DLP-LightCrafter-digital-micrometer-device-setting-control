@@ -43,7 +43,7 @@ addpath 'C:\Users\Dvir\Desktop\DMD Settings and Control\DMD Full Control\pregen_
             
         disp('created CS measurement set')
 
-inverse_cells = singel_LL_inverse(imageSize); 
+inverse_cells = signal_LL_inverse(imageSize); 
 
 % Open an on screen window if not open
 if isempty(window)
